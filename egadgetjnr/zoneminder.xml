@@ -113,7 +113,7 @@
   <Config Name="Zoneminder Logs" Target="/var/log/zm" Default="" Description="The path for Zoneminder Logs" Type="Path" Display="always" Required="false" Mode="rw"></Config>
   <Config Name="Zoneminder Internal MySQL Db Path" Target="/var/lib/mysql" Default="" Description="The path for Zoneminder Internal Database" Type="Path" Display="always" Required="false" Mode="rw"></Config>
   
-  <Config Name="Zoneminder Config" Target="/etc/zm" Default="/mnt/user/appdata/Zoneminder" Description="The path for Zoneminder Events" Type="Path" Display="advanced-hide" Required="true" Mode="rw"></Config>
+  <Config Name="Zoneminder Config" Target="/etc/zm" Default="/mnt/user/appdata/Zoneminder" Description="The path for Zoneminder Events" Type="Path" Display="advanced-hide" Required="true" Mode="rw">/mnt/user/appdata/Zoneminder</Config>
 
   <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Description="Location to Localtime" Type="Path" Display="advanced" Required="false" Mode="r">/etc/localtime</Config>
 </Container>

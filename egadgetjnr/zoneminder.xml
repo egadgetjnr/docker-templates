@@ -43,65 +43,6 @@
       </Port>
     </Publish>
   </Networking>
-  <Data>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/var/lib/zoneminder/events</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/var/lib/zoneminder/images</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/var/log/zm</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/var/lib/mysql</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/var/log/zm</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/etc/zm</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <Environment>
-    <Variable>
-      <Value>Australia/Brisbane</Value>
-      <Name>TZ</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value></Value>
-      <Name>ZM_DB_USER</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value></Value>
-      <Name>ZM_DB_PASS</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value></Value>
-      <Name>ZM_DB_NAME</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value></Value>
-      <Name>ZM_DB_HOST</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
   <Config Name="Timezone" Target="TZ" Default="" Mode="" Description="Set to Timezone" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
   <Config Name="External MySQL Database User" Target="ZM_DB_USER" Default="" Mode="" Description="Set to desired Username" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
   <Config Name="External MySQL Database Password" Target="ZM_DB_PASS" Default="" Description="Set to desired Password" Type="Variable" Display="advanced" Required="false" Mask="true"></Config>

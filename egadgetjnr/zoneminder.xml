@@ -52,7 +52,6 @@
   <Config Name="Zoneminder Events" Target="/var/lib/zoneminder/events" Default="" Description="The path for Zoneminder Events" Type="Path" Display="always" Required="true" Mode="rw"></Config>
   <Config Name="Zoneminder Images" Target="/var/lib/zoneminder/images" Default="" Description="The path for Zoneminder Images" Type="Path" Display="always" Required="true" Mode="rw"></Config>
   <Config Name="Zoneminder Logs" Target="/var/log/zm" Default="" Description="The path for Zoneminder Logs" Type="Path" Display="always" Required="false" Mode="rw"></Config>
-  <Config Name="Zoneminder Internal MySQL Db Path" Target="/var/lib/mysql" Default="" Description="The path for Zoneminder Internal Database" Type="Path" Display="always" Required="false" Mode="rw"></Config>
   
   <Config Name="Zoneminder Config" Target="/etc/zm" Default="/mnt/user/appdata/Zoneminder" Description="The path for Zoneminder Events" Type="Path" Display="advanced-hide" Required="true" Mode="rw">/mnt/user/appdata/Zoneminder</Config>
 

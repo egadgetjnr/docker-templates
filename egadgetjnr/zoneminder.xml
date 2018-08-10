@@ -116,9 +116,4 @@
   <Config Name="Zoneminder Config" Target="/etc/zm" Default="/mnt/user/appdata/Zoneminder" Description="The path for Zoneminder Events" Type="Path" Display="advanced-hide" Required="true" Mode="rw"></Config>
 
   <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Description="Location to Localtime" Type="Path" Display="advanced" Required="false" Mode="r">/etc/localtime</Config>
-
-  <Config Name="DNS Made Easy Record ID" Target="DME_ID" Default="" Description="The ID for that DNS record" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="Check Interval" Target="INTERVAL" Default="" Description="Seconds between checks" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="Hipchat API" Target="HIPCHAT_API_TOKEN" Default="" Description="API token to notify Hipchat" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
-  <Config Name="Hipchat Room" Target="HIPCHAT_ROOM_ID" Default="" Description="API token to notify Hipchat" Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 </Container>
